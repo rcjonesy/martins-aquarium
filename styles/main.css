@@ -1,0 +1,79 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'fishlist fishlist'
+    'locations tanktips';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    
+}
+
+mainpic {
+
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.fishList {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 50px;
+}
+
+.allFish {
+    grid-area: fishlist;
+    
+}
+.allTips {
+    grid-area: tanktips;
+}
+.allLocations {
+    grid-area: locations;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tank-tips {
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+
+.tip {
+    margin-top: 10px;
+}
+
+
+img {
+    width:  350px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.fish {
+ margin-bottom: 50px
+}
+
